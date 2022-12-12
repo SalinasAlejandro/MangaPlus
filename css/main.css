@@ -1,0 +1,56 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  font-weight: 500;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.navbar {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  background-color: #dc0914;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.headerImg {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 10px;
+}
+
+h1,
+label {
+  color: #dc0914;
+}
+
+hr {
+  background-color: #dc0914;
+}
+
+.caja {
+  background-color: #dc0914;
+}
+
+.dropdown-item:hover {
+  background-color: #191919;
+  color: #dc0914;
+}
+
+.card {
+  background-color: #dc0914;
+}
+
+.card-header {
+  padding: 0.25rem;
+  margin-bottom: 0;
+}

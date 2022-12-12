@@ -1,0 +1,105 @@
+.contenido {
+  margin-top: 30px;
+}
+.headpost {
+  text-align: center;
+}
+.headpost .allc {
+  font-size: 13px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+.allc a {
+  color: #ddd;
+  font-weight: 500;
+}
+.headpost h1 {
+  margin: 0;
+  font-size: 21px;
+  color: #ddd;
+}
+.selector select {
+  background: #333;
+  border: 1px solid #333;
+  font-family: inherit;
+  display: block;
+  color: #9b9b9b;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  float: left;
+  margin-right: 10px;
+}
+.chnav {
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1142px;
+}
+.nextprev a {
+  display: block;
+  padding: 2px 15px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 13px;
+  background: #0c70de;
+  line-height: 25px;
+}
+.nextprev a.disabled {
+  background: #222;
+  color: #555;
+}
+.nextprev a {
+  color: #fff;
+}
+.nextprev a[rel="prev"] {
+  float: left;
+}
+.nextprev a[rel="next"] {
+  margin-left: 10px;
+}
+.nextprev a[rel="next"] {
+  float: right;
+}
+.nextprev a {
+  color: #fff;
+}
+.r {
+  float: right;
+  margin-left: 10px;
+}
+#readerarea {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#readerarea img {
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+  min-width: 600px;
+}
+#readerarea {
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+  max-width: 1142px;
+}
+.chnav.ctop {
+  margin-bottom: 20px;
+}
+.chnav.cbot {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}

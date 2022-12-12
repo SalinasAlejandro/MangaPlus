@@ -1,0 +1,140 @@
+p {
+  color: #dc0914;
+}
+.arriba {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  color: #f6f6f6;
+  font-size: 35px;
+  line-height: 30px;
+  padding: 10px 50px 40px 25px;
+  background: linear-gradient(90deg, #222, transparent);
+}
+.autor {
+  color: #f6f6f6;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  top: -40px;
+  margin-left: 25px;
+}
+.nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
+  color: #191919;
+}
+.bixbox {
+  width: 100%;
+  background: #222;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+.row ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-left: 0px;
+  overflow: auto;
+  max-height: 297px;
+}
+.row li {
+  float: none;
+  width: auto;
+  list-style: none;
+}
+#listaCap {
+  margin: 15px;
+}
+.chbox {
+  margin-left: 0;
+  overflow: hidden;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.epNum {
+  width: 85%;
+  float: left;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+a:hover {
+  color: #dc0914;
+  text-decoration: none;
+}
+.numCap {
+  display: block;
+}
+.fechaCap {
+  display: block;
+  font-size: 12px;
+  color: #888;
+}
+p {
+  color: #f6f6f6;
+}
+.btnFavAgreg {
+  background: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: solid 1px #888;
+  color: #f6f6f6;
+  padding: 0;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  margin: 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  outline: none;
+  display: block;
+  font-family: Roboto, Sans-Serif;
+  width: 100%;
+}
+.btnFavAgreg:hover {
+  background: #dc0914;
+  border: solid 1px #222;
+  color: #222;
+}
+.btnFavQuit {
+  background: #dc0914;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: solid 1px #222;
+  color: #222;
+  padding: 0;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  margin: 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  outline: none;
+  display: block;
+  font-family: Roboto, Sans-Serif;
+  width: 100%;
+}
+.btnFavQuit:hover {
+  background: transparent;
+  border: solid 1px #888;
+  color: #f6f6f6;
+}

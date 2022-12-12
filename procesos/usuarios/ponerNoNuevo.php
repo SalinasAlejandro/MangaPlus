@@ -1,0 +1,5 @@
+<?php
+
+    $usuario->ponerNoNuevo($id);
+
+?>
